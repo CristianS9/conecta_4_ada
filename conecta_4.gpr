@@ -1,0 +1,13 @@
+project conecta_4 is
+   --  This project calls up the teacher-supplied source.
+
+   --  This is a list of paths, which can be absolute but
+   --  if relative are relative to the directory where this .gpr
+   --  is found.
+   for Source_Dirs use ("lib","config","pantalla","funciones");
+
+   --  Keep the built objects (.ali, .o) out of the way. Use the -p
+   --  gnatmake flag to have directories like this built
+   --  automatically.
+   for Object_Dir use ".build";
+end conecta_4;

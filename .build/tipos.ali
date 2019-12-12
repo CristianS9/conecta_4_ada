@@ -1,0 +1,26 @@
+V "GNAT Lib v2019"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U tipos%s		tipos.ads		cc2f5f24 NE OO PK IL
+
+D system.ads		20190518041258 32a08138 system%s
+D tipos.ads		20191211225224 cc2f5f24 tipos%s
+G a e
+G c Z s s [TtableroBIP tipos 8 1 none]
+X 2 tipos.ads
+1K9*tipos 10l5 10e10
+3i1*Max_Columnas{integer} 8r40
+4i1*Max_Filas{integer} 8r27
+6E6*color 6e37 8r57
+6n16*Rojo{6E6}
+6n22*Amarillo{6E6}
+6n32*Nada{6E6}
+8A6*tablero(6E6)<integer><integer>
+
