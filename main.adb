@@ -2,7 +2,8 @@ with
     escribir_intro
     ,menu
     ,escribir_tabla
-    ,tipos;
+    ,tipos
+    ,meter_ficha;
 
 use tipos;
 
@@ -18,11 +19,18 @@ begin
         end loop;
     end loop;
 
-    tabla(6,5) := Amarillo;
-    tabla(6,6) := Rojo;
-    tabla(5,5) := Amarillo;
+    --tabla(6,5) := Amarillo;
+    --tabla(6,6) := Rojo;
+    --tabla(5,5) := Amarillo;
     --escribir_intro;
     --menu;
+    meter_ficha(5,Rojo,tabla);
+    meter_ficha(5,Rojo,tabla);
+    meter_ficha(5,Rojo,tabla);
+    meter_ficha(5,Rojo,tabla);
+    meter_ficha(5,Rojo,tabla);
+    meter_ficha(5,Rojo,tabla);
+    meter_ficha(5,Rojo,tabla);
     escribir_tabla(tabla);
 
 end main;

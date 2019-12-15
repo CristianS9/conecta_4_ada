@@ -250,6 +250,7 @@ package body ada_main is
    --   C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\menu.o
    --   C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\tipos.o
    --   C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\escribir_tabla.o
+   --   C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\meter_ficha.o
    --   C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\main.o
    --   -LC:\Users\Cristian\Desktop\program\ada\conecta_4\.build\
    --   -LC:\Users\Cristian\Desktop\program\ada\conecta_4\.build\

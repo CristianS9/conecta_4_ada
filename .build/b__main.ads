@@ -37,7 +37,7 @@ package ada_main is
    pragma Export (C, main, "main");
 
    type Version_32 is mod 2 ** 32;
-   u00001 : constant Version_32 := 16#138e66ab#;
+   u00001 : constant Version_32 := 16#40c63022#;
    pragma Export (C, u00001, "mainB");
    u00002 : constant Version_32 := 16#050ff2f0#;
    pragma Export (C, u00002, "system__standard_libraryB");
@@ -339,10 +339,12 @@ package ada_main is
    pragma Export (C, u00150, "system__val_unsS");
    u00151 : constant Version_32 := 16#a5d83238#;
    pragma Export (C, u00151, "escribir_menuB");
-   u00152 : constant Version_32 := 16#e31b7c4e#;
-   pragma Export (C, u00152, "system__memoryB");
-   u00153 : constant Version_32 := 16#6bdde70c#;
-   pragma Export (C, u00153, "system__memoryS");
+   u00152 : constant Version_32 := 16#c997a051#;
+   pragma Export (C, u00152, "meter_fichaB");
+   u00153 : constant Version_32 := 16#e31b7c4e#;
+   pragma Export (C, u00153, "system__memoryB");
+   u00154 : constant Version_32 := 16#6bdde70c#;
+   pragma Export (C, u00154, "system__memoryS");
 
    --  BEGIN ELABORATION ORDER
    --  ada%s
@@ -497,6 +499,7 @@ package ada_main is
    --  menu%b
    --  tipos%s
    --  escribir_tabla%b
+   --  meter_ficha%b
    --  main%b
    --  END ELABORATION ORDER
 
