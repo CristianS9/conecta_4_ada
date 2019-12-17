@@ -1,81 +1,103 @@
 with Ada.Text_Io;use  Ada.Text_Io;
 with Nt_Console;use nt_console;
 
-procedure escribir_menu is
+procedure escribir_menu(limpiar: in Boolean) is
+    procedure e_borde is begin
+        set_background;
+        Put("  ");
+    end e_borde;
 
+    procedure e_columna is begin
+        set_background(green);
+        put("   ");
+        set_background;
+    end e_columna;
 begin
-
-    clear_screen;
-    set_background(green);
-    new_line;
-    new_line;
-    new_line;
-
-    put("                                                             ");
-    new_line;
+    if limpiar then
+        clear_screen;
+    end if;
     
-    put("   ");
-    set_background;
-    put("                                                       ");
-    set_background(green);
-    put("   ");
+    new_line;
+    new_line;
     new_line;
 
-    put("   ");
+    e_borde;
+    set_background(green);
+    put("                                                             ");
     set_background;
+    new_line;
+
+    e_borde;    
+    e_columna;
+    put("                                                       ");
+    e_columna;
+    new_line;
+
+    e_borde;    
+    e_columna;
     put("       CONECTA 4       CONECTA 4       CONECTA 4       ");
-    set_background(green);
-    put("   ");
+    e_columna;
     new_line;
 
-    put("   ");
-    set_background;
+    e_borde;
+    e_columna;
     put("                                                       ");
-    set_background(green);
-    put("   ");
+    e_columna;
     new_line;
-
+        
+    e_borde;
+    set_background(green);
     put("                                                             ");
+    set_background;
     new_line;
 
-    put("   ");
-    set_background;
+    e_borde;
+    e_columna;
     put("                                                       ");
-    set_background(green);
-    put("   ");
+    e_columna;
     new_line;
 
-    put("   ");
-    set_background;
+    e_borde;
+    e_columna;
     Put("             1. Jugador vs Jugador                     ");
-    set_background(green);
-    put("   ");
+    e_columna;
     new_line;
 
-    put("   ");
-    set_background;
+    e_borde;
+    e_columna;
     put("                                                       ");
-    set_background(green);
-    put("   ");
+    e_columna;
     new_line;
 
-    put("   ");
-    set_background;
+    e_borde;
+    e_columna;
     Put("             2. Jugador vs IA                          ");
-    set_background(green);
-    put("   ");
+    e_columna;
     new_line;
 
-    put("   ");
-    set_background;
+    e_borde;
+    e_columna;
     put("                                                       ");
+    e_columna;
+    new_line;
+
+    e_borde;
+    e_columna;
+    Put("             3. Salir                                  ");
+    e_columna;
+    new_line;
+
+    e_borde;
+    e_columna;
+    put("                                                       ");
+    e_columna;
+    new_line;
+
+    e_borde;
     set_background(green);
-    put("   ");
-    new_line;
-
     put("                                                             ");
+    set_background;
     new_line;
-
 
     set_background;
 

@@ -1,0 +1,120 @@
+V "GNAT Lib v2019"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U partida%b		partida.adb		5cc6641c NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W comprobar_empate%b	comprobar_empate.adb	comprobar_empate.ali
+W comprobar_ganador%b	comprobar_ganador.adb	comprobar_ganador.ali
+W escribir_ganador%b	escribir_ganador.adb	escribir_ganador.ali
+W escribir_pedir_ficha%b  escribir_pedir_ficha.adb  escribir_pedir_ficha.ali
+W escribir_tabla%b	escribir_tabla.adb	escribir_tabla.ali
+W meter_ficha%b		meter_ficha.adb		meter_ficha.ali
+W nt_console%s		nt_console.adb		nt_console.ali
+W rellenar_tabla%b	rellenar_tabla.adb	rellenar_tabla.ali
+W tipos%s		tipos.ads		tipos.ali
+
+D ada.ads		20190518041256 76789da1 ada%s
+D a-except.ads		20190518041256 291912d5 ada.exceptions%s
+D a-inteio.ads		20190518041258 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20190518041256 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20190518041256 119b8fb3 ada.streams%s
+D a-tags.ads		20190518041258 491b781d ada.tags%s
+D a-textio.ads		20190518041258 aef4d56d ada.text_io%s
+D a-tiinio.ads		20190518041256 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20190518041256 0e9b276f ada.unchecked_conversion%s
+D comprobar_diagonal_derecha.adb  20191215195030 2e1148c0 comprobar_diagonal_derecha%b
+D comprobar_diagonal_izquierda.adb  20191215195046 2cdbea08 comprobar_diagonal_izquierda%b
+D comprobar_empate.adb	20191217145326 a64110cb comprobar_empate%b
+D comprobar_ganador.adb	20191215181144 d33fad66 comprobar_ganador%b
+D comprobar_lina_vertical.adb  20191215195004 bd6c7893 comprobar_lina_vertical%b
+D comprobar_linea_horizontal.adb  20191215194948 5a256ea0 comprobar_linea_horizontal%b
+D escribir_ganador.adb	20191217145838 7d4f6ab3 escribir_ganador%b
+D escribir_pedir_ficha.adb  20191215181120 15ed59ba escribir_pedir_ficha%b
+D escribir_tabla.adb	20191211232444 ac64f5f3 escribir_tabla%b
+D interfac.ads		20190518041256 5ab55268 interfaces%s
+D i-cstrea.ads		20190518041256 e53d8b8e interfaces.c_streams%s
+D meter_ficha.adb	20191217151234 5cfc56f3 meter_ficha%b
+D nt_console.ads	20191208220444 548ec638 nt_console%s
+D partida.adb		20191217152828 3586db27 partida%b
+D rellenar_tabla.adb	20191215160816 441a574a rellenar_tabla%b
+D system.ads		20190518041258 32a08138 system%s
+D s-conca2.ads		20190518041256 02a0d7d0 system.concat_2%s
+D s-conca3.ads		20190518041258 0b705ca5 system.concat_3%s
+D s-crtl.ads		20190518041256 0ebbdb71 system.crtl%s
+D s-exctab.ads		20190518041256 54135002 system.exception_table%s
+D s-ficobl.ads		20190518041258 078245e4 system.file_control_block%s
+D s-imgint.ads		20190518041256 02dbe0c2 system.img_int%s
+D s-parame.ads		20190518041258 48ec542b system.parameters%s
+D s-secsta.ads		20190518041258 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20190518041256 a7318a92 system.soft_links%s
+D s-stache.ads		20190518041258 a37c21ec system.stack_checking%s
+D s-stalib.ads		20190518041258 09bd3940 system.standard_library%s
+D s-stoele.ads		20190518041258 2dc34a04 system.storage_elements%s
+D s-traent.ads		20190518041256 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20190518041256 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20190518041256 1b7d22d2 system.wch_con%s
+D tipos.ads		20191211225224 cc2f5f24 tipos%s
+G a e
+G c Z b b [partida standard 19 11 none]
+G r c none [partida standard 19 11 none] [rellenar_tabla standard 3 11 none]
+G r c none [partida standard 19 11 none] [clear_screen nt_console 214 14 none]
+G r c none [partida standard 19 11 none] [escribir_tabla standard 6 11 none]
+G r c none [partida standard 19 11 none] [escribir_pedir_ficha standard 4 11 none]
+G r c none [partida standard 19 11 none] [meter_ficha standard 4 11 none]
+G r c none [partida standard 19 11 none] [comprobar_ganador standard 8 10 none]
+G r c none [partida standard 19 11 none] [comprobar_empate standard 3 10 none]
+G r c none [partida standard 19 11 none] [escribir_ganador standard 4 11 none]
+X 1 ada.ads
+16K9*Ada 20e8 23|15r6 15r23 17r6 17r31
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[8|46] 23|17w10 17r35
+X 7 a-textio.ads
+57K13*Text_IO 727e16 23|15w10 15r27
+X 8 a-tiinio.ads
+59U14*Get 23|39s17[3|18]
+X 12 comprobar_empate.adb
+3V10*comprobar_empate{boolean} 23|5w6 58s15
+X 13 comprobar_ganador.adb
+8V10*comprobar_ganador{41|6E6} 23|7w6 46s26
+X 16 escribir_ganador.adb
+4U11*escribir_ganador 23|8w6 78s5
+X 17 escribir_pedir_ficha.adb
+4U11*escribir_pedir_ficha 23|6w6 38s17
+X 18 escribir_tabla.adb
+6U11*escribir_tabla 23|2w6 37s17 77s5
+X 21 meter_ficha.adb
+4U11*meter_ficha 23|4w6 42s13
+X 22 nt_console.ads
+25K9*NT_Console 228e15 23|9w6 13r6
+214U14*Clear_Screen 23|36s17 76s5
+X 23 partida.adb
+19U11*partida 19b11 19>19 79l5 79t12
+19i19 tipo_partida{integer}
+20a5 tabla{41|8A6} 28m20 28r20 37r32 42m37 42r37 46r44 58r32 77r20
+21i5 pos{integer} 33m13 35r19 35r28 39m21 42r25 72m9
+22b5 fin{boolean} 30r11 50m13 59m13
+23i5 jugador{integer} 38r38 42r29 64r12 65m13 67m13
+24e5 color_ganador{41|6E6} 46m9 49r12 51r16
+25i5 jugador_ganador{integer} 52m17 54m17 60m13 78r22
+26b5 ficha_introducida{boolean} 29m5 32r15 42m43 73m9
+X 24 rellenar_tabla.adb
+3U11*rellenar_tabla 23|3w6 28s5
+X 41 tipos.ads
+1K9*tipos 23|1w6 12r5 41|10e10
+3i1*Max_Columnas{integer} 23|35r32
+6E6*color 23|24r20 41|6e37
+6n16*Rojo{6E6} 23|51r32
+6n32*Nada{6E6} 23|49r28
+8A6*tablero(6E6)<integer><integer> 23|20r12
+

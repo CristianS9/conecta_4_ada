@@ -27,10 +27,10 @@ package body ada_main is
    E112 : Short_Integer; pragma Import (Ada, E112, "system__finalization_root_E");
    E110 : Short_Integer; pragma Import (Ada, E110, "ada__finalization_E");
    E109 : Short_Integer; pragma Import (Ada, E109, "system__file_io_E");
-   E118 : Short_Integer; pragma Import (Ada, E118, "ada__calendar_E");
-   E116 : Short_Integer; pragma Import (Ada, E116, "ada__calendar__delays_E");
+   E125 : Short_Integer; pragma Import (Ada, E125, "ada__calendar_E");
+   E123 : Short_Integer; pragma Import (Ada, E123, "ada__calendar__delays_E");
    E006 : Short_Integer; pragma Import (Ada, E006, "ada__text_io_E");
-   E125 : Short_Integer; pragma Import (Ada, E125, "nt_console_E");
+   E116 : Short_Integer; pragma Import (Ada, E116, "nt_console_E");
 
    Sec_Default_Sized_Stacks : array (1 .. 1) of aliased System.Secondary_Stack.SS_Stack (System.Parameters.Runtime_Default_Sec_Stack_Size);
 
@@ -201,14 +201,14 @@ package body ada_main is
       E109 := E109 + 1;
       Ada.Calendar'Elab_Spec;
       Ada.Calendar'Elab_Body;
-      E118 := E118 + 1;
+      E125 := E125 + 1;
       Ada.Calendar.Delays'Elab_Body;
-      E116 := E116 + 1;
+      E123 := E123 + 1;
       Ada.Text_Io'Elab_Spec;
       Ada.Text_Io'Elab_Body;
       E006 := E006 + 1;
       Nt_Console'Elab_Body;
-      E125 := E125 + 1;
+      E116 := E116 + 1;
    end adainit;
 
    procedure Ada_Main_Program;
@@ -244,13 +244,25 @@ package body ada_main is
    end;
 
 --  BEGIN Object file/option list
+   --   C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\menu_jugador_vs_ia.o
    --   C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\nt_console.o
+   --   C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\escribir_ganador.o
    --   C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\escribir_intro.o
    --   C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\escribir_menu.o
-   --   C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\menu.o
+   --   C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\escribir_pedir_ficha.o
    --   C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\tipos.o
+   --   C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\comprobar_diagonal_derecha.o
+   --   C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\comprobar_diagonal_izquierda.o
+   --   C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\comprobar_empate.o
+   --   C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\comprobar_lina_vertical.o
+   --   C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\comprobar_linea_horizontal.o
+   --   C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\comprobar_ganador.o
    --   C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\escribir_tabla.o
    --   C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\meter_ficha.o
+   --   C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\rellenar_tabla.o
+   --   C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\partida.o
+   --   C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\menu_jugador_vs_jugador.o
+   --   C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\menu.o
    --   C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\main.o
    --   -LC:\Users\Cristian\Desktop\program\ada\conecta_4\.build\
    --   -LC:\Users\Cristian\Desktop\program\ada\conecta_4\.build\

@@ -1,0 +1,84 @@
+V "GNAT Lib v2019"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U comprobar_ganador%b	comprobar_ganador.adb	546793d4 NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W comprobar_diagonal_derecha%b  comprobar_diagonal_derecha.adb  comprobar_diagonal_derecha.ali
+W comprobar_diagonal_izquierda%b  comprobar_diagonal_izquierda.adb  comprobar_diagonal_izquierda.ali
+W comprobar_lina_vertical%b  comprobar_lina_vertical.adb  comprobar_lina_vertical.ali
+W comprobar_linea_horizontal%b  comprobar_linea_horizontal.adb  comprobar_linea_horizontal.ali
+W tipos%s		tipos.ads		tipos.ali
+
+D ada.ads		20190518041256 76789da1 ada%s
+D a-except.ads		20190518041256 291912d5 ada.exceptions%s
+D a-ioexce.ads		20190518041256 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20190518041256 119b8fb3 ada.streams%s
+D a-tags.ads		20190518041258 491b781d ada.tags%s
+D a-textio.ads		20190518041258 aef4d56d ada.text_io%s
+D a-unccon.ads		20190518041256 0e9b276f ada.unchecked_conversion%s
+D comprobar_diagonal_derecha.adb  20191215195030 2e1148c0 comprobar_diagonal_derecha%b
+D comprobar_diagonal_izquierda.adb  20191215195046 2cdbea08 comprobar_diagonal_izquierda%b
+D comprobar_ganador.adb	20191215181144 d33fad66 comprobar_ganador%b
+D comprobar_lina_vertical.adb  20191215195004 bd6c7893 comprobar_lina_vertical%b
+D comprobar_linea_horizontal.adb  20191215194948 5a256ea0 comprobar_linea_horizontal%b
+D interfac.ads		20190518041256 5ab55268 interfaces%s
+D i-cstrea.ads		20190518041256 e53d8b8e interfaces.c_streams%s
+D system.ads		20190518041258 32a08138 system%s
+D s-crtl.ads		20190518041256 0ebbdb71 system.crtl%s
+D s-exctab.ads		20190518041256 54135002 system.exception_table%s
+D s-ficobl.ads		20190518041258 078245e4 system.file_control_block%s
+D s-parame.ads		20190518041258 48ec542b system.parameters%s
+D s-secsta.ads		20190518041258 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20190518041256 a7318a92 system.soft_links%s
+D s-stache.ads		20190518041258 a37c21ec system.stack_checking%s
+D s-stalib.ads		20190518041258 09bd3940 system.standard_library%s
+D s-stoele.ads		20190518041258 2dc34a04 system.storage_elements%s
+D s-traent.ads		20190518041256 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20190518041256 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20190518041256 1b7d22d2 system.wch_con%s
+D tipos.ads		20191211225224 cc2f5f24 tipos%s
+G a e
+G c Z b b [comprobar_ganador standard 8 10 none]
+G r c none [comprobar_ganador standard 8 10 none] [comprobar_linea_horizontal standard 3 10 none]
+G r c none [comprobar_ganador standard 8 10 none] [comprobar_lina_vertical standard 3 10 none]
+G r c none [comprobar_ganador standard 8 10 none] [comprobar_diagonal_derecha standard 3 10 none]
+G r c none [comprobar_ganador standard 8 10 none] [comprobar_diagonal_izquierda standard 3 10 none]
+X 1 ada.ads
+16K9*Ada 20e8 10|6r6 6r23
+X 6 a-textio.ads
+57K13*Text_IO 727e16 10|6w10 6r27
+X 8 comprobar_diagonal_derecha.adb
+3V10*comprobar_diagonal_derecha{boolean} 10|4w6 27s17
+X 9 comprobar_diagonal_izquierda.adb
+3V10*comprobar_diagonal_izquierda{boolean} 10|5w6 29s17
+X 10 comprobar_ganador.adb
+8V10*comprobar_ganador{28|6E6} 8b10 8>28 45l5 45t22
+8a28 tabla{28|8A6} 23r44 25r41 27r44 29r46 31r28
+9e5 ganador{28|6E6} 31m17 43r12
+10i5 fila{integer} 13m5 18r11 23r50 25r47 27r50 29r52 31r34 33m17 40m5 40r13
+10i10 columna{integer} 14m5 21r15 23r55 25r52 27r55 29r57 31r39 32m17 36m9
+. 36r20 39m5
+10i18 limite_columna{integer} 15m5
+10i33 limite_fila{integer} 16m5
+X 11 comprobar_lina_vertical.adb
+3V10*comprobar_lina_vertical{boolean} 10|3w6 25s17
+X 12 comprobar_linea_horizontal.adb
+3V10*comprobar_linea_horizontal{boolean} 10|2w6 23s17
+X 28 tipos.ads
+1K9*tipos 10|1w6 1r16 28|10e10
+3i1*Max_Columnas{integer} 10|15r23 21r26 32r28
+4i1*Max_Filas{integer} 10|13r13
+6E6*color 10|8r51 9r14 28|6e37
+6n32*Nada{6E6} 10|9r23
+8A6*tablero(6E6)<integer><integer> 10|8r35
+

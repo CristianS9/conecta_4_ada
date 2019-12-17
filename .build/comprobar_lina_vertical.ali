@@ -1,0 +1,31 @@
+V "GNAT Lib v2019"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U comprobar_lina_vertical%b  comprobar_lina_vertical.adb  714327b7 NE OO SU IL
+W tipos%s		tipos.ads		tipos.ali
+
+D comprobar_lina_vertical.adb  20191215195004 bd6c7893 comprobar_lina_vertical%b
+D system.ads		20190518041258 32a08138 system%s
+D tipos.ads		20191211225224 cc2f5f24 tipos%s
+G a e
+G c Z b b [comprobar_lina_vertical standard 3 10 none]
+X 1 comprobar_lina_vertical.adb
+3V10*comprobar_lina_vertical{boolean} 3b10 3>34 3>49 3>54 24l5 24t28
+3a34 tabla{3|8A6} 10r13 13r13 13r35 15r13 15r35 17r13 17r35
+3i49 fila{integer} 9r9 10r19 13r19 13r41 15r19 15r41 17r19 17r41
+3i54 columna{integer} 10r24 13r24 13r48 15r24 15r48 17r24 17r48
+4b5 linea{boolean} 19m13 23r12
+5i5 limite_fila{integer} 7m5 9r17
+X 3 tipos.ads
+1K9*tipos 1|1w6 1r17 3|10e10
+6n32*Nada{6E6} 1|10r36
+8A6*tablero(6E6)<integer><integer> 1|3r41
+

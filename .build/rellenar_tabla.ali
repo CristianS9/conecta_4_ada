@@ -1,0 +1,30 @@
+V "GNAT Lib v2019"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U rellenar_tabla%b	rellenar_tabla.adb	8835086e NE OO SU IL
+W tipos%s		tipos.ads		tipos.ali
+
+D rellenar_tabla.adb	20191215160816 441a574a rellenar_tabla%b
+D system.ads		20190518041258 32a08138 system%s
+D tipos.ads		20191211225224 cc2f5f24 tipos%s
+G a e
+G c Z b b [rellenar_tabla standard 3 11 none]
+X 1 rellenar_tabla.adb
+3U11*rellenar_tabla 3b11 3=26 13l5 13t19
+3a26 tabla{3|8A6} 8m13
+6i9 i{integer} 8r19
+7i13 j{integer} 8r21
+X 3 tipos.ads
+1K9*tipos 1|1w6 1r17 3|10e10
+3i1*Max_Columnas{integer} 1|7r21
+4i1*Max_Filas{integer} 1|6r17
+6n32*Nada{6E6} 1|8r27
+8A6*tablero(6E6)<integer><integer> 1|3r40
+

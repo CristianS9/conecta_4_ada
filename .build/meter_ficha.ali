@@ -9,7 +9,7 @@ RV NO_IO
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U meter_ficha%b		meter_ficha.adb		c997a051 NE OO SU IL
+U meter_ficha%b		meter_ficha.adb		3e27dcba NE OO SU IL
 W ada%s			ada.ads			ada.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
 W tipos%s		tipos.ads		tipos.ali
@@ -23,7 +23,7 @@ D a-textio.ads		20190518041258 aef4d56d ada.text_io%s
 D a-unccon.ads		20190518041256 0e9b276f ada.unchecked_conversion%s
 D interfac.ads		20190518041256 5ab55268 interfaces%s
 D i-cstrea.ads		20190518041256 e53d8b8e interfaces.c_streams%s
-D meter_ficha.adb	20191215155424 ab4c2a18 meter_ficha%b
+D meter_ficha.adb	20191217151234 5cfc56f3 meter_ficha%b
 D system.ads		20190518041258 32a08138 system%s
 D s-crtl.ads		20190518041256 0ebbdb71 system.crtl%s
 D s-exctab.ads		20190518041256 54135002 system.exception_table%s
@@ -45,15 +45,19 @@ X 1 ada.ads
 X 6 a-textio.ads
 57K13*Text_IO 727e16 10|2w10 2r27
 X 10 meter_ficha.adb
-4U11*meter_ficha 4b11 4>23 4>43 4=67 20l5 20t16
-4i23 columna{integer} 8r20 15r19
-4e43 color_jugador{24|6E6} 15r31
-4a67 tabla{24|8A6} 7r14 8r12 15m9
-5i5 pos{integer} 9m13 14r8 15r15
-7i9 i{integer} 8r18 9r20
+4U11*meter_ficha 4b11 4>23 4>31 4=52 4<74 28l5 28t16
+4i23 columna{integer} 11r20 22r19
+4i31 jugador{integer} 15r8 17r11
+4a52 tabla{24|8A6} 10r14 11r12 22m9
+4b74 correcto{boolean} 8m5 23m9
+5i5 pos{integer} 12m13 21r8 22r15
+6e5 color_jugador{24|6E6} 16m9 18m9 22r31
+10i9 i{integer} 11r18 12r20
 X 24 tipos.ads
 1K9*tipos 10|1w6 1r17 24|10e10
-6E6*color 10|4r60 24|6e37
-6n32*Nada{6E6} 10|8r31
-8A6*tablero(6E6)<integer><integer> 10|4r81
+6E6*color 10|6r20 24|6e37
+6n16*Rojo{6E6} 10|16r26
+6n22*Amarillo{6E6} 10|18r26
+6n32*Nada{6E6} 10|11r31
+8A6*tablero(6E6)<integer><integer> 10|4r66
 

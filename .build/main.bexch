@@ -6,13 +6,25 @@ C:\Users\Cristian\Desktop\program\ada\conecta_4\main.gpr
 C:\Users\Cristian\Desktop\program\ada\conecta_4\conecta_4.gpr
 20191211214418
 [BOUND OBJECT FILES]
+C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\menu_jugador_vs_ia.o
 C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\nt_console.o
+C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\escribir_ganador.o
 C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\escribir_intro.o
 C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\escribir_menu.o
-C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\menu.o
+C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\escribir_pedir_ficha.o
 C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\tipos.o
+C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\comprobar_diagonal_derecha.o
+C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\comprobar_diagonal_izquierda.o
+C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\comprobar_empate.o
+C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\comprobar_lina_vertical.o
+C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\comprobar_linea_horizontal.o
+C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\comprobar_ganador.o
 C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\escribir_tabla.o
 C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\meter_ficha.o
+C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\rellenar_tabla.o
+C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\partida.o
+C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\menu_jugador_vs_jugador.o
+C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\menu.o
 C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\main.o
 [GENERATED SOURCE FILES]
 b__main.ads

@@ -1,0 +1,63 @@
+V "GNAT Lib v2019"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U menu_jugador_vs_jugador%b  menu_jugador_vs_jugador.adb  62bfab2c NE OO SU IL
+W partida%b		partida.adb		partida.ali
+
+D ada.ads		20190518041256 76789da1 ada%s
+D a-except.ads		20190518041256 291912d5 ada.exceptions%s
+D a-inteio.ads		20190518041258 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20190518041256 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20190518041256 119b8fb3 ada.streams%s
+D a-tags.ads		20190518041258 491b781d ada.tags%s
+D a-textio.ads		20190518041258 aef4d56d ada.text_io%s
+D a-tiinio.ads		20190518041256 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20190518041256 0e9b276f ada.unchecked_conversion%s
+D comprobar_diagonal_derecha.adb  20191215195030 2e1148c0 comprobar_diagonal_derecha%b
+D comprobar_diagonal_izquierda.adb  20191215195046 2cdbea08 comprobar_diagonal_izquierda%b
+D comprobar_empate.adb	20191217145326 a64110cb comprobar_empate%b
+D comprobar_ganador.adb	20191215181144 d33fad66 comprobar_ganador%b
+D comprobar_lina_vertical.adb  20191215195004 bd6c7893 comprobar_lina_vertical%b
+D comprobar_linea_horizontal.adb  20191215194948 5a256ea0 comprobar_linea_horizontal%b
+D escribir_ganador.adb	20191217145838 7d4f6ab3 escribir_ganador%b
+D escribir_pedir_ficha.adb  20191215181120 15ed59ba escribir_pedir_ficha%b
+D escribir_tabla.adb	20191211232444 ac64f5f3 escribir_tabla%b
+D interfac.ads		20190518041256 5ab55268 interfaces%s
+D i-cstrea.ads		20190518041256 e53d8b8e interfaces.c_streams%s
+D menu_jugador_vs_jugador.adb  20191215162918 5739700b menu_jugador_vs_jugador%b
+D meter_ficha.adb	20191217151234 5cfc56f3 meter_ficha%b
+D nt_console.ads	20191208220444 548ec638 nt_console%s
+D partida.adb		20191217152828 3586db27 partida%b
+D rellenar_tabla.adb	20191215160816 441a574a rellenar_tabla%b
+D system.ads		20190518041258 32a08138 system%s
+D s-conca2.ads		20190518041256 02a0d7d0 system.concat_2%s
+D s-conca3.ads		20190518041258 0b705ca5 system.concat_3%s
+D s-crtl.ads		20190518041256 0ebbdb71 system.crtl%s
+D s-exctab.ads		20190518041256 54135002 system.exception_table%s
+D s-ficobl.ads		20190518041258 078245e4 system.file_control_block%s
+D s-imgint.ads		20190518041256 02dbe0c2 system.img_int%s
+D s-parame.ads		20190518041258 48ec542b system.parameters%s
+D s-secsta.ads		20190518041258 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20190518041256 a7318a92 system.soft_links%s
+D s-stache.ads		20190518041258 a37c21ec system.stack_checking%s
+D s-stalib.ads		20190518041258 09bd3940 system.standard_library%s
+D s-stoele.ads		20190518041258 2dc34a04 system.storage_elements%s
+D s-traent.ads		20190518041256 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20190518041256 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20190518041256 1b7d22d2 system.wch_con%s
+D tipos.ads		20191211225224 cc2f5f24 tipos%s
+G a e
+G c Z b b [menu_jugador_vs_jugador standard 4 11 none]
+G r c none [menu_jugador_vs_jugador standard 4 11 none] [partida standard 19 11 none]
+X 21 menu_jugador_vs_jugador.adb
+4U11*menu_jugador_vs_jugador 4b11 9l5 9t28
+X 24 partida.adb
+19U11*partida 21|1w6 7s5
+
