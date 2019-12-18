@@ -1,0 +1,33 @@
+V "GNAT Lib v2019"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U comprobar_diagonal_derecha%b  comprobar_diagonal_derecha.adb  c0d1c2f9 NE OO SU IL
+W tipos%s		tipos.ads		tipos.ali
+
+D comprobar_diagonal_derecha.adb  20191217154908 2e1148c0 comprobar_diagonal_derecha%b
+D system.ads		20190518041258 32a08138 system%s
+D tipos.ads		20191218043222 eec08a39 tipos%s
+G a e
+G c Z b b [comprobar_diagonal_derecha standard 3 10 none]
+X 1 comprobar_diagonal_derecha.adb
+3V10*comprobar_diagonal_derecha{boolean} 3b10 3>37 3>52 3>57 30l5 30t31
+3a37 tabla{3|8A6} 16r9 19r13 19r35 21r13 21r35 23r13 23r35
+3i52 fila{integer} 12r9 16r15 19r19 19r41 21r19 21r41 23r19 23r41
+3i57 columna{integer} 14r9 16r20 19r24 19r48 21r24 21r48 23r24 23r48
+4b5 linea{boolean} 25m13 29r12
+5i5 limite_fila{integer} 8m5 12r17
+5i17 limite_columna{integer} 9m5 14r20
+X 3 tipos.ads
+1K9*tipos 1|1w6 1r17 3|10e10
+3i1*Max_Columnas{integer} 1|9r23
+6n32*Nada{6E6} 1|16r32
+8A6*tablero(6E6)<integer><integer> 1|3r44
+

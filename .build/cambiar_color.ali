@@ -1,0 +1,27 @@
+V "GNAT Lib v2019"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U cambiar_color%b	cambiar_color.adb	a7aafcc4 NE OO SU IL
+W tipos%s		tipos.ads		tipos.ali
+
+D cambiar_color.adb	20191218104926 496a76fd cambiar_color%b
+D system.ads		20190518041258 32a08138 system%s
+D tipos.ads		20191218043222 eec08a39 tipos%s
+G a e
+G c Z b b [cambiar_color standard 3 11 none]
+X 1 cambiar_color.adb
+3U11*cambiar_color 3b11 3=25 11l5 11t18
+3e25 actual{3|6E6} 6r8 7m9 9m9
+X 3 tipos.ads
+1K9*tipos 1|1w6 1r17 3|10e10
+6E6*color 1|3r40 3|6e44
+6n16*Rojo{6E6} 1|6r17 9r19
+6n22*Amarillo{6E6} 1|7r19
+

@@ -1,0 +1,48 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\Users\Cristian\Desktop\program\ada\conecta_4\main.gpr
+20191208221436
+C:\Users\Cristian\Desktop\program\ada\conecta_4\conecta_4.gpr
+20191218043222
+[BOUND OBJECT FILES]
+C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\escribir_santa_pensando.o
+C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\nt_console.o
+C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\escribir_intro.o
+C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\escribir_menu.o
+C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\escribir_menu_ia.o
+C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\tipos.o
+C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\cambiar_color.o
+C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\comprobar_diagonal_derecha.o
+C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\comprobar_diagonal_izquierda.o
+C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\comprobar_empate.o
+C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\comprobar_lina_vertical.o
+C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\comprobar_linea_horizontal.o
+C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\comprobar_ganador.o
+C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\escribir_ganador.o
+C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\escribir_pedir_ficha.o
+C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\escribir_tabla.o
+C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\meter_ficha.o
+C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\rellenar_tabla.o
+C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\tipos_santa.o
+C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\posible_ganador.o
+C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\valor_por_jugada.o
+C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\santa.o
+C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\partida.o
+C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\menu_jugador_vs_ia.o
+C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\menu_jugador_vs_jugador.o
+C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\menu.o
+C:\Users\Cristian\Desktop\program\ada\conecta_4\.build\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\Users\Cristian\Desktop\program\ada\conecta_4\.build\
+-LC:\Users\Cristian\Desktop\program\ada\conecta_4\.build\
+-LC:/gnat/2019/lib/gcc/x86_64-pc-mingw32/8.3.1/adalib/
+-static
+-static-libgcc
+-luser32
+C:/gnat/2019/lib/gcc/x86_64-pc-mingw32/8.3.1/adalib/libgnat.a
+-Wl,--stack=0x2000000

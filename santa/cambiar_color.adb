@@ -1,6 +1,6 @@
 with tipos; use tipos;
 
-procedure cambiar_color( actual: in out Color) is
+procedure cambiar_color(actual: in out Color) is
 
 begin
     if actual = rojo then

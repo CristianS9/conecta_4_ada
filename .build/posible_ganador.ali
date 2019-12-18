@@ -1,0 +1,78 @@
+V "GNAT Lib v2019"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U posible_ganador%b	posible_ganador.adb	dac2ebe9 NE OO SU IL
+W comprobar_ganador%b	comprobar_ganador.adb	comprobar_ganador.ali
+W meter_ficha%b		meter_ficha.adb		meter_ficha.ali
+W tipos%s		tipos.ads		tipos.ali
+W tipos_santa%s		tipos_santa.ads		tipos_santa.ali
+
+D ada.ads		20190518041256 76789da1 ada%s
+D a-except.ads		20190518041256 291912d5 ada.exceptions%s
+D a-inteio.ads		20190518041258 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20190518041256 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20190518041256 119b8fb3 ada.streams%s
+D a-tags.ads		20190518041258 491b781d ada.tags%s
+D a-textio.ads		20190518041258 aef4d56d ada.text_io%s
+D a-tiinio.ads		20190518041256 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20190518041256 0e9b276f ada.unchecked_conversion%s
+D comprobar_diagonal_derecha.adb  20191217154908 2e1148c0 comprobar_diagonal_derecha%b
+D comprobar_diagonal_izquierda.adb  20191217154908 2cdbea08 comprobar_diagonal_izquierda%b
+D comprobar_ganador.adb	20191217154908 d33fad66 comprobar_ganador%b
+D comprobar_lina_vertical.adb  20191217154908 bd6c7893 comprobar_lina_vertical%b
+D comprobar_linea_horizontal.adb  20191217154908 5a256ea0 comprobar_linea_horizontal%b
+D interfac.ads		20190518041256 5ab55268 interfaces%s
+D i-cstrea.ads		20190518041256 e53d8b8e interfaces.c_streams%s
+D meter_ficha.adb	20191218043222 02bc4ba2 meter_ficha%b
+D posible_ganador.adb	20191217224204 2727e0c2 posible_ganador%b
+D system.ads		20190518041258 32a08138 system%s
+D s-crtl.ads		20190518041256 0ebbdb71 system.crtl%s
+D s-exctab.ads		20190518041256 54135002 system.exception_table%s
+D s-ficobl.ads		20190518041258 078245e4 system.file_control_block%s
+D s-parame.ads		20190518041258 48ec542b system.parameters%s
+D s-secsta.ads		20190518041258 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20190518041256 a7318a92 system.soft_links%s
+D s-stache.ads		20190518041258 a37c21ec system.stack_checking%s
+D s-stalib.ads		20190518041258 09bd3940 system.standard_library%s
+D s-stoele.ads		20190518041258 2dc34a04 system.storage_elements%s
+D s-traent.ads		20190518041256 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20190518041256 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20190518041256 1b7d22d2 system.wch_con%s
+D tipos.ads		20191218043222 eec08a39 tipos%s
+D tipos_santa.ads	20191218043222 c2a667d6 tipos_santa%s
+G a e
+G c Z b b [posible_ganador standard 12 11 none]
+G r c none [posible_ganador standard 12 11 none] [meter_ficha standard 5 11 none]
+G r c none [posible_ganador standard 12 11 none] [comprobar_ganador standard 8 10 none]
+X 12 comprobar_ganador.adb
+8V10*comprobar_ganador{32|6E6} 18|4w6 24s25 29s26
+X 17 meter_ficha.adb
+5U11*meter_ficha 18|3w6 23s9 27s9
+X 18 posible_ganador.adb
+12U11*posible_ganador 12b11 12>27 12<49 38l5 38t20
+12a27 original{32|8A6} 21r18 26r18
+12a49 ganadores{33|6A6} 18m5 20r14 24m9 31r38 32m13 34m13
+13a5 tabla{32|8A6} 21m9 23m28 23r28 24r43 26m9 27m32 27r32 29r44
+14b5 a{boolean} 23m34 27m38
+15e5 color_ganador{32|6E6} 29m9 31r12 33r15
+20i9 i{integer} 23r21 24r19 27r21 31r48 32r23 34r23
+X 32 tipos.ads
+1K9*tipos 18|1w6 7r5 32|10e10
+6E6*color 18|15r20 32|6e44
+6n16*Rojo{6E6} 18|23r23
+6n22*Amarillo{6E6} 18|27r23 34r29
+6n32*Nada{6E6} 18|18r29 31r29 31r54 33r32
+6n38*Ambos{6E6} 18|32r29
+8A6*tablero(6E6)<integer><integer> 18|12r40 13r12
+X 33 tipos_santa.ads
+3K9*tipos_santa 18|2w6 8r6 33|9e16
+6A6*array_ganador(32|6E6)<integer> 18|12r64
+

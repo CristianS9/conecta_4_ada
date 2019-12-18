@@ -1,0 +1,118 @@
+V "GNAT Lib v2019"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U valor_por_jugada%b	valor_por_jugada.adb	705e9ead NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W cambiar_color%b	cambiar_color.adb	cambiar_color.ali
+W comprobar_ganador%b	comprobar_ganador.adb	comprobar_ganador.ali
+W escribir_tabla%b	escribir_tabla.adb	escribir_tabla.ali
+W meter_ficha%b		meter_ficha.adb		meter_ficha.ali
+W tipos%s		tipos.ads		tipos.ali
+W tipos_santa%s		tipos_santa.ads		tipos_santa.ali
+
+D ada.ads		20190518041256 76789da1 ada%s
+D a-except.ads		20190518041256 291912d5 ada.exceptions%s
+D a-inteio.ads		20190518041258 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20190518041256 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20190518041256 119b8fb3 ada.streams%s
+D a-tags.ads		20190518041258 491b781d ada.tags%s
+D a-textio.ads		20190518041258 aef4d56d ada.text_io%s
+D a-tiinio.ads		20190518041256 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20190518041256 0e9b276f ada.unchecked_conversion%s
+D cambiar_color.adb	20191218104926 496a76fd cambiar_color%b
+D comprobar_diagonal_derecha.adb  20191217154908 2e1148c0 comprobar_diagonal_derecha%b
+D comprobar_diagonal_izquierda.adb  20191217154908 2cdbea08 comprobar_diagonal_izquierda%b
+D comprobar_ganador.adb	20191217154908 d33fad66 comprobar_ganador%b
+D comprobar_lina_vertical.adb  20191217154908 bd6c7893 comprobar_lina_vertical%b
+D comprobar_linea_horizontal.adb  20191217154908 5a256ea0 comprobar_linea_horizontal%b
+D escribir_tabla.adb	20191218043222 5eb2de55 escribir_tabla%b
+D interfac.ads		20190518041256 5ab55268 interfaces%s
+D i-cstrea.ads		20190518041256 e53d8b8e interfaces.c_streams%s
+D meter_ficha.adb	20191218043222 02bc4ba2 meter_ficha%b
+D nt_console.ads	20191208220444 548ec638 nt_console%s
+D system.ads		20190518041258 32a08138 system%s
+D s-conca2.ads		20190518041256 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20190518041256 0ebbdb71 system.crtl%s
+D s-exctab.ads		20190518041256 54135002 system.exception_table%s
+D s-ficobl.ads		20190518041258 078245e4 system.file_control_block%s
+D s-imgint.ads		20190518041256 02dbe0c2 system.img_int%s
+D s-parame.ads		20190518041258 48ec542b system.parameters%s
+D s-secsta.ads		20190518041258 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20190518041256 a7318a92 system.soft_links%s
+D s-stache.ads		20190518041258 a37c21ec system.stack_checking%s
+D s-stalib.ads		20190518041258 09bd3940 system.standard_library%s
+D s-stoele.ads		20190518041258 2dc34a04 system.storage_elements%s
+D s-traent.ads		20190518041256 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20190518041256 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20190518041256 1b7d22d2 system.wch_con%s
+D tipos.ads		20191218043222 eec08a39 tipos%s
+D tipos_santa.ads	20191218043222 c2a667d6 tipos_santa%s
+D valor_por_jugada.adb	20191218050730 c2dc61e7 valor_por_jugada%b
+G a e
+G c Z b b [valor_por_jugada standard 16 11 none]
+G r c none [valor_por_jugada standard 16 11 none] [cambiar_color standard 3 11 none]
+G r c none [valor_por_jugada standard 16 11 none] [meter_ficha standard 5 11 none]
+G r c none [valor_por_jugada standard 16 11 none] [comprobar_ganador standard 8 10 none]
+X 1 ada.ads
+16K9*Ada 20e8 38|13r6 13r23 14r6 14r31
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[8|46] 38|14w10 14r35
+X 7 a-textio.ads
+57K13*Text_IO 727e16 38|13w10 13r27
+X 10 cambiar_color.adb
+3U11*cambiar_color 38|6w6 28s5
+X 13 comprobar_ganador.adb
+8V10*comprobar_ganador{36|6E6} 38|4w6 39s24 47s32 55s40 65s48 75s60 83s68
+X 16 escribir_tabla.adb
+6U11*escribir_tabla 38|5w6
+X 19 meter_ficha.adb
+5U11*meter_ficha 38|3w6 32s9 36s17 44s25 52s33 61s41 72s53 80s61 87s65 93s57
+. 99s45 104s37 109s29 114s21 119s13
+X 36 tipos.ads
+1K9*tipos 10e10 38|1w6 9r5
+3i1*Max_Columnas{integer} 38|31r17 35r25 43r33 51r41 60r49 71r61 79r69
+6E6*color 6e44 38|16r57 18r22
+6n32*Nada{6E6} 38|87r79 93r71 99r59 104r51 109r43 114r35 119r27
+8A6*tablero(6E6)<integer><integer> 38|16r38 21r12
+X 37 tipos_santa.ads
+3K9*tipos_santa 9e16 38|2w6 10r6
+5A6*puntos_opcion(integer)<integer> 38|16r76
+X 38 valor_por_jugada.adb
+16U11*valor_por_jugada 16b11 16>28 16>46 16<63 16>90 131l5 131t21
+16a28 copia{36|8A6} 29r14
+16e46 primero{36|6E6} 26r16 27r16
+16a63 puntos{37|5A6} 25m5 40m25 40r38 48m33 48r46 56m41 56r54 66m49 66r62
+. 76m61 76r74 84m69 84r82 121m13
+16b90 pro{boolean} 70r48
+17b5 a{boolean} 32m37 34r12 36m45 38r20 44m53 46r28 52m61 54r36 61m69 63r44
+. 72m81 74r56 80m89 82r64 87m90 93m82 99m70 104m62 109m54 114m46 119m38
+18e5 opuesto{36|6E6} 27m5 28m19 28r19 36r31 39r51 52r47 55r67 72r67 75r87
+18e13 jugador{36|6E6} 26m5 32r23 44r39 47r59 61r55 65r75 80r75 83r95
+19i5 numero_de_jugadas{integer}
+20i5 i{integer}
+20i7 j{integer}
+20i9 k{integer}
+20i11 l{integer}
+21a5 tabla{36|8A6} 29m5 32m31 32r31 36m39 36r39 39r42 44m47 44r47 47r50 52m55
+. 52r55 55r58 61m63 61r63 65r66 72m75 72r75 75r78 80m83 80r83 83r86 87m84
+. 87r84 93m76 93r76 99m64 99r64 104m56 104r56 109m48 109r48 114m40 114r40
+. 119m32 119r32
+31i9 i{integer} 32r21 40r32 40r45 48r40 48r53 56r48 56r61 66r56 66r69 76r68
+. 76r81 84r76 84r89 119r25 121r20
+35i17 j{integer} 36r29 114r33
+43i25 k{integer} 44r37 109r41
+51i33 l{integer} 52r45 104r49
+60i41 m{integer} 61r53 99r57
+71i53 n{integer} 72r65 93r69
+79i61 o{integer} 80r73 87r77
+

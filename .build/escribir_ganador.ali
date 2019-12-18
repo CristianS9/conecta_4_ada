@@ -1,0 +1,75 @@
+V "GNAT Lib v2019"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U escribir_ganador%b	escribir_ganador.adb	96fb4bdd NE OO SU IL
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W nt_console%s		nt_console.adb		nt_console.ali
+W tipos%s		tipos.ads		tipos.ali
+
+D ada.ads		20190518041256 76789da1 ada%s
+D a-except.ads		20190518041256 291912d5 ada.exceptions%s
+D a-ioexce.ads		20190518041256 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20190518041256 119b8fb3 ada.streams%s
+D a-tags.ads		20190518041258 491b781d ada.tags%s
+D a-textio.ads		20190518041258 aef4d56d ada.text_io%s
+D a-unccon.ads		20190518041256 0e9b276f ada.unchecked_conversion%s
+D escribir_ganador.adb	20191218043222 8241d2b1 escribir_ganador%b
+D interfac.ads		20190518041256 5ab55268 interfaces%s
+D i-cstrea.ads		20190518041256 e53d8b8e interfaces.c_streams%s
+D nt_console.ads	20191208220444 548ec638 nt_console%s
+D system.ads		20190518041258 32a08138 system%s
+D s-crtl.ads		20190518041256 0ebbdb71 system.crtl%s
+D s-exctab.ads		20190518041256 54135002 system.exception_table%s
+D s-ficobl.ads		20190518041258 078245e4 system.file_control_block%s
+D s-parame.ads		20190518041258 48ec542b system.parameters%s
+D s-secsta.ads		20190518041258 20bbe636 system.secondary_stack%s
+D s-soflin.ads		20190518041256 a7318a92 system.soft_links%s
+D s-stache.ads		20190518041258 a37c21ec system.stack_checking%s
+D s-stalib.ads		20190518041258 09bd3940 system.standard_library%s
+D s-stoele.ads		20190518041258 2dc34a04 system.storage_elements%s
+D s-traent.ads		20190518041256 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20190518041256 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20190518041256 1b7d22d2 system.wch_con%s
+D tipos.ads		20191218043222 eec08a39 tipos%s
+G a e
+G c Z b b [escribir_ganador standard 5 11 none]
+G r c none [escribir_ganador standard 5 11 none] [set_background nt_console 208 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 8|2r6 2r23
+X 6 a-textio.ads
+57K13*Text_IO 727e16 8|2w10 2r27
+264U14*New_Line 8|44s5 45s5 48s5 51s5 64s5 67s5 70s5
+465U14*Put 8|10s9 16s9 23s9 31s9 56s9 58s9 60s9
+X 8 escribir_ganador.adb
+5U11*escribir_ganador 5b11 5>28 74l5 74t21
+5e28 jugador{25|6E6} 36r8 38r11 55r8 57r11
+6e5 fondo{11|34E9} 37m9 39m9 41m9 47r13 50r19 54r15 63r15 66r19 69r13
+8U15 e_borde 8b15 11l9 11t16 14s9 18s9 28s9 53s5
+13U15 e_linea 13b15 13>23 19l9 19t16 47s5 69s5
+13e23 color{11|34E9} 15r24
+21U15 e_columna 21b15 21>25 25l9 25t18 29s9 32s9 54s5 63s5
+21e25 color{11|34E9} 22r24
+27U15 e_linea_vacia 27b15 27>29 33l9 33t22 50s5 66s5
+27e29 color{11|34E9} 29r19 32r19
+X 11 nt_console.ads
+25K9*NT_Console 8|1w6 1r21 11|228e15
+34E9*Color_Type 8|6r12 13r33 21r35 27r39 11|37e36
+35n33*Red{34E9} 8|37r18
+35n38*Magenta{34E9} 8|41r18
+37n22*Yellow{34E9} 8|39r18
+208U14*Set_Background 8|9s9 15s9 17s9 22s9 24s9 30s9
+X 25 tipos.ads
+1K9*tipos 8|3w6 3r17 25|10e10
+6E6*color 8|5r40 25|6e44
+6n16*Rojo{6E6} 8|36r18 55r18
+6n22*Amarillo{6E6} 8|38r19 57r21
+
