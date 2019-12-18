@@ -1,0 +1,7 @@
+1- El programa se compila utlizando el siguiente comando desde la carpeta raiz:
+    gnatmake -p -P main.gpr
+
+
+2- Santa (IA) tiene una opcion PRO, en la que es mucho mas efectivo pero tambien tarda mas.
+    Para activar esta opcion basta con entrar a "santa/santa.adb" y establecer la variable
+    modo_pro := true

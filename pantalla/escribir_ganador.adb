@@ -1,7 +1,8 @@
 with Nt_Console;use nt_console;
 with Ada.Text_Io;use  Ada.Text_Io;
+with tipos; use tipos;
 
-procedure escribir_ganador(jugador: in Integer) is
+procedure escribir_ganador(jugador: in color) is
     fondo: color_type;
 
     procedure e_borde is begin
@@ -32,9 +33,9 @@ procedure escribir_ganador(jugador: in Integer) is
     end e_linea_vacia;
 
 begin
-    if jugador = 1 then
+    if jugador = rojo then
         fondo := red;
-    elsif jugador=2 then
+    elsif jugador=amarillo then
         fondo := yellow;
     else 
         fondo := magenta;
@@ -51,12 +52,14 @@ begin
 
     e_borde;
     e_columna(fondo);
-    if jugador= 0 then
+    if jugador = rojo then
+        Put("                  El ganador es el jugador ROJO                      ");
+    elsif jugador = amarillo then
+        Put("                  El ganador es el jugador AMARILLO                  ");
+    else
         Put("                             Empate                                  ");
-    else 
-        Put("                    El ganador es el jugador "& jugador'image &"                      ");
-
     end if;
+
     e_columna(fondo);
     new_line;
 

@@ -5,24 +5,21 @@ with
     ,escribir_tabla
     ,tipos
     ,escribir_ganador
-    ,meter_ficha;
+    ,meter_ficha
+    ,santa;
 
 use tipos;
 
 with Ada.Text_Io;use  Ada.Text_Io;
 
 procedure main is
-    tabla: tablero;
-begin
-    
-    
 
-    --tabla(6,5) := Amarillo;
-    --tabla(6,6) := Rojo;
-    --tabla(5,5) := Amarillo;
-    --escribir_intro;
-  
+
+begin
+
+    escribir_intro;
     menu;
-   
+  
+
 
 end main;

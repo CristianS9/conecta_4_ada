@@ -1,21 +1,24 @@
 with tipos; use tipos;
 with Ada.Text_Io;use  Ada.Text_Io;
+with Ada.Integer_Text_IO; use Ada.Integer_Text_IO;
 
-procedure meter_ficha(columna,jugador: in Integer; tabla: in out tablero;correcto: out Boolean) is
+procedure meter_ficha(columna: in Integer;color_jugador : in color; tabla: in out tablero;correcto: out Boolean) is
     pos:integer := 0;
-    color_jugador: color;
+    i: Integer := 1;
 begin
     correcto := false;
-
-    for i in tabla'range (1) loop
+    while i <= Max_Filas loop
         if tabla(i,columna) = Nada then
             pos := i;
+        else 
+            i := Max_Filas;
         end if;
+        i := i+1;
     end loop;
-    if jugador=1 then
-        color_jugador := Rojo;
-    elsif jugador=2 then
-        color_jugador := Amarillo;
+
+    
+    if color_jugador = nada then
+        pos := pos+1;
     end if;
 
     if pos > 0 then
@@ -23,6 +26,7 @@ begin
         correcto := true;
     end if;
 
+    
    
 
 end meter_ficha;

@@ -1,10 +1,12 @@
 with Ada.Text_Io;use  Ada.Text_Io;
 with Nt_Console;use nt_console;
+with tipos; use tipos;
 
-procedure escribir_pedir_ficha(jugador: integer) is
+procedure escribir_pedir_ficha(jugador: in color) is
 
 begin
-    if jugador = 1 then
+
+    if jugador = Rojo then
         set_foreground(red);
     else 
         set_foreground(yellow);
@@ -12,7 +14,12 @@ begin
     new_line;
     put("               ************************************************");
     new_line;
-    put("                                 JUGADOR "& jugador'image &"                       ");
+    if jugador = rojo then
+        put("                                 JUGADOR ROJO                   ");
+    else 
+        put("                              JUGADOR AMARILLO                  ");
+
+    end if;
     new_line;
     put("               ************************************************");
     new_line;

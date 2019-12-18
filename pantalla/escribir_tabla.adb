@@ -70,7 +70,7 @@ procedure escribir_tabla(tabla: in tablero) is
     end e_linea_patas;
 
 begin
-    new_line;
+    clear_screen;
     new_line;
     for i in tabla'range loop
         e_linea;
