@@ -8,11 +8,11 @@ RN
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U tipos_santa%s		tipos_santa.ads		2c66edef NE OO PK IL
+U tipos_santa%s		tipos_santa.ads		18cd2b0a NE OO PK IL
 W tipos%s		tipos.ads		tipos.ali
 
 D system.ads		20190518041258 32a08138 system%s
-D tipos.ads		20191218043222 eec08a39 tipos%s
+D tipos.ads		20200120185032 da6b4cdc tipos%s
 D tipos_santa.ads	20191218043222 c2a667d6 tipos_santa%s
 G a e
 G c Z s s [Tpuntos_opcionBIP tipos_santa 5 1 none]

@@ -23,7 +23,7 @@ procedure santa(tabla: in out Tablero;jugador_in: in color;fila: out Integer) is
     jugador: color;
 
     -- @ ATENCION   santa es mucho mas inteligente pero tarda mas en pensar
-        modo_pro : boolean:= false;
+        modo_pro : boolean:= true;
     -- @ ATENCION   santa es mucho mas inteligente pero tarda mas en pensar
 
 begin

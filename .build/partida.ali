@@ -10,7 +10,7 @@ RV NO_IO
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U partida%b		partida.adb		ebac0960 NE OO SU IL
+U partida%b		partida.adb		67919a57 NE OO SU IL
 W ada%s			ada.ads			ada.ali
 W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
@@ -34,7 +34,7 @@ D a-tags.ads		20190518041258 491b781d ada.tags%s
 D a-textio.ads		20190518041258 aef4d56d ada.text_io%s
 D a-tiinio.ads		20190518041256 390edddb ada.text_io.integer_io%s
 D a-unccon.ads		20190518041256 0e9b276f ada.unchecked_conversion%s
-D cambiar_color.adb	20191218104926 496a76fd cambiar_color%b
+D cambiar_color.adb	20191218105728 496a76fd cambiar_color%b
 D comprobar_diagonal_derecha.adb  20191217154908 2e1148c0 comprobar_diagonal_derecha%b
 D comprobar_diagonal_izquierda.adb  20191217154908 2cdbea08 comprobar_diagonal_izquierda%b
 D comprobar_empate.adb	20191217154908 a64110cb comprobar_empate%b
@@ -44,15 +44,15 @@ D comprobar_linea_horizontal.adb  20191217154908 5a256ea0 comprobar_linea_horizo
 D escribir_ganador.adb	20191218043222 8241d2b1 escribir_ganador%b
 D escribir_pedir_ficha.adb  20191218043222 d5c6d22e escribir_pedir_ficha%b
 D escribir_santa_pensando.adb  20191218043222 56522086 escribir_santa_pensando%b
-D escribir_tabla.adb	20191218043222 5eb2de55 escribir_tabla%b
+D escribir_tabla.adb	20200120184230 04b05ef5 escribir_tabla%b
 D interfac.ads		20190518041256 5ab55268 interfaces%s
 D i-cstrea.ads		20190518041256 e53d8b8e interfaces.c_streams%s
 D meter_ficha.adb	20191218043222 02bc4ba2 meter_ficha%b
 D nt_console.ads	20191208220444 548ec638 nt_console%s
 D partida.adb		20191218043222 e2d041bd partida%b
-D posible_ganador.adb	20191217224204 2727e0c2 posible_ganador%b
+D posible_ganador.adb	20191218105728 2727e0c2 posible_ganador%b
 D rellenar_tabla.adb	20191217154908 441a574a rellenar_tabla%b
-D santa.adb		20191218105512 d160279a santa%b
+D santa.adb		20191218111846 33f4f2e8 santa%b
 D system.ads		20190518041258 32a08138 system%s
 D s-conca2.ads		20190518041256 02a0d7d0 system.concat_2%s
 D s-crtl.ads		20190518041256 0ebbdb71 system.crtl%s
@@ -68,9 +68,9 @@ D s-stoele.ads		20190518041258 2dc34a04 system.storage_elements%s
 D s-traent.ads		20190518041256 005bf670 system.traceback_entries%s
 D s-unstyp.ads		20190518041256 34867c83 system.unsigned_types%s
 D s-wchcon.ads		20190518041256 1b7d22d2 system.wch_con%s
-D tipos.ads		20191218043222 eec08a39 tipos%s
+D tipos.ads		20200120185032 da6b4cdc tipos%s
 D tipos_santa.ads	20191218043222 c2a667d6 tipos_santa%s
-D valor_por_jugada.adb	20191218050730 c2dc61e7 valor_por_jugada%b
+D valor_por_jugada.adb	20200119180922 c2dc61e7 valor_por_jugada%b
 G a e
 G c Z b b [partida standard 20 11 none]
 G r c none [partida standard 20 11 none] [rellenar_tabla standard 3 11 none]

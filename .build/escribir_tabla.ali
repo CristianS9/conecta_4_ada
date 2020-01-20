@@ -10,7 +10,7 @@ RV NO_DYNAMIC_SIZED_OBJECTS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U escribir_tabla%b	escribir_tabla.adb	4a084739 NE OO SU IL
+U escribir_tabla%b	escribir_tabla.adb	24a1017c NE OO SU IL
 W ada%s			ada.ads			ada.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
 W nt_console%s		nt_console.adb		nt_console.ali
@@ -25,7 +25,7 @@ D a-stream.ads		20190518041256 119b8fb3 ada.streams%s
 D a-tags.ads		20190518041258 491b781d ada.tags%s
 D a-textio.ads		20190518041258 aef4d56d ada.text_io%s
 D a-unccon.ads		20190518041256 0e9b276f ada.unchecked_conversion%s
-D escribir_tabla.adb	20191218043222 5eb2de55 escribir_tabla%b
+D escribir_tabla.adb	20200120184230 04b05ef5 escribir_tabla%b
 D interfac.ads		20190518041256 5ab55268 interfaces%s
 D i-cstrea.ads		20190518041256 e53d8b8e interfaces.c_streams%s
 D nt_console.ads	20191208220444 548ec638 nt_console%s
@@ -44,7 +44,7 @@ D s-stoele.ads		20190518041258 2dc34a04 system.storage_elements%s
 D s-traent.ads		20190518041256 005bf670 system.traceback_entries%s
 D s-unstyp.ads		20190518041256 34867c83 system.unsigned_types%s
 D s-wchcon.ads		20190518041256 1b7d22d2 system.wch_con%s
-D tipos.ads		20191218043222 eec08a39 tipos%s
+D tipos.ads		20200120185032 da6b4cdc tipos%s
 G a e
 G c Z b b [escribir_tabla standard 6 11 none]
 G r c none [escribir_tabla standard 6 11 none] [clear_screen nt_console 214 14 none]
@@ -53,36 +53,38 @@ X 1 ada.ads
 16K9*Ada 20e8 8|2r6 2r23
 X 6 a-textio.ads
 57K13*Text_IO 727e16 8|2w10 2r27
-264U14*New_Line 8|74s5 77s9 85s9 93s9 97s5 100s5 103s5
-465U14*Put 8|11s9 17s9 24s9 32s9 37s9 45s9 48s9 50s13 52s9 55s9 63s9 65s9
-. 67s9
+264U14*New_Line 8|80s5 83s9 91s9 99s9 103s5 106s5 109s5
+465U14*Put 8|11s9 18s13 20s9 27s9 35s9 40s9 48s9 51s9 53s13 55s9 58s9 66s9
+. 69s13 71s9 73s9
 X 8 escribir_tabla.adb
-6U11*escribir_tabla 6b11 6>26 107l5 107t19
-6a26 tabla{27|8A6} 75r14 80r18 81r21 88r18 89r21
-9U15 e_borde 9b15 12l9 12t16 15s9 19s9 42s9 58s9 79s9 84s9 87s9 92s9
-14U15 e_linea 14b15 20l9 20t16 76s9 96s5
-22U15 e_celda 22b15 22>23 33l9 33t16 81s13 89s13
-22e23 tipo{27|6E6} 25r12 27r15
-35U15 e_fin_celda 35b15 39l9 39t20 83s9 91s9
-41U15 e_linea_columnas 41b15 59l9 59t25 99s5
-49i13 i{integer} 50r17
-61U15 e_linea_patas 61b15 70l9 70t22 102s5
-75i9 i{integer} 81r27 89r27
-80i13 j{integer} 81r29
-88i13 j{integer} 89r29
+6U11*escribir_tabla 6b11 6>26 113l5 113t19
+6a26 tabla{27|8A6} 81r14 87r21 95r21
+9U15 e_borde 9b15 12l9 12t16 15s9 22s9 45s9 61s9 85s9 90s9 93s9 98s9
+14U15 e_linea 14b15 23l9 23t16 82s9 102s5
+17i13 i{integer}
+25U15 e_celda 25b15 25>23 36l9 36t16 87s13 95s13
+25e23 tipo{27|6E6} 28r12 30r15
+38U15 e_fin_celda 38b15 42l9 42t20 89s9 97s9
+44U15 e_linea_columnas 44b15 62l9 62t25 105s5
+52i13 i{integer} 53r17
+64U15 e_linea_patas 64b15 76l9 76t22 108s5
+68i13 i{integer}
+81i9 i{integer} 87r27 95r27
+86i13 j{integer} 87r29
+94i13 j{integer} 95r29
 X 11 nt_console.ads
 25K9*NT_Console 8|1w6 1r21 11|228e15
-35n33*Red{34E9} 8|26r28
-36n7*Light_Blue{34E9} 8|16r24 23r24 36r24 44r24 54r24 62r24 66r24
-37n22*Yellow{34E9} 8|28r28
-208U14*Set_Background 8|10s9 16s9 18s9 23s9 26s13 28s13 30s13 36s9 38s9 44s9
-. 47s9 54s9 57s9 62s9 64s9 66s9 68s9
-214U14*Clear_Screen 8|73s5
+35n33*Red{34E9} 8|29r28
+36n7*Light_Blue{34E9} 8|16r24 26r24 39r24 47r24 57r24 65r24 72r24
+37n22*Yellow{34E9} 8|31r28
+208U14*Set_Background 8|10s9 16s9 21s9 26s9 29s13 31s13 33s13 39s9 41s9 47s9
+. 50s9 57s9 60s9 65s9 67s9 72s9 74s9
+214U14*Clear_Screen 8|79s5
 X 27 tipos.ads
 1K9*tipos 8|4w6 4r17 27|10e10
-3i1*Max_Columnas{integer} 8|49r21 52r13
-6E6*color 8|22r32 27|6e44
-6n16*Rojo{6E6} 8|25r19
-6n22*Amarillo{6E6} 8|27r21
+3i1*Max_Columnas{integer} 8|17r21 52r21 55r13 68r21 86r21 94r21
+6E6*color 8|25r32 27|6e44
+6n16*Rojo{6E6} 8|28r19
+6n22*Amarillo{6E6} 8|30r21
 8A6*tablero(6E6)<integer><integer> 8|6r36
 

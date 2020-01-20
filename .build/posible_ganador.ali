@@ -9,7 +9,7 @@ RV NO_DIRECT_BOOLEAN_OPERATORS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U posible_ganador%b	posible_ganador.adb	dac2ebe9 NE OO SU IL
+U posible_ganador%b	posible_ganador.adb	ee692d0c NE OO SU IL
 W comprobar_ganador%b	comprobar_ganador.adb	comprobar_ganador.ali
 W meter_ficha%b		meter_ficha.adb		meter_ficha.ali
 W tipos%s		tipos.ads		tipos.ali
@@ -32,7 +32,7 @@ D comprobar_linea_horizontal.adb  20191217154908 5a256ea0 comprobar_linea_horizo
 D interfac.ads		20190518041256 5ab55268 interfaces%s
 D i-cstrea.ads		20190518041256 e53d8b8e interfaces.c_streams%s
 D meter_ficha.adb	20191218043222 02bc4ba2 meter_ficha%b
-D posible_ganador.adb	20191217224204 2727e0c2 posible_ganador%b
+D posible_ganador.adb	20191218105728 2727e0c2 posible_ganador%b
 D system.ads		20190518041258 32a08138 system%s
 D s-crtl.ads		20190518041256 0ebbdb71 system.crtl%s
 D s-exctab.ads		20190518041256 54135002 system.exception_table%s
@@ -46,7 +46,7 @@ D s-stoele.ads		20190518041258 2dc34a04 system.storage_elements%s
 D s-traent.ads		20190518041256 005bf670 system.traceback_entries%s
 D s-unstyp.ads		20190518041256 34867c83 system.unsigned_types%s
 D s-wchcon.ads		20190518041256 1b7d22d2 system.wch_con%s
-D tipos.ads		20191218043222 eec08a39 tipos%s
+D tipos.ads		20200120185032 da6b4cdc tipos%s
 D tipos_santa.ads	20191218043222 c2a667d6 tipos_santa%s
 G a e
 G c Z b b [posible_ganador standard 12 11 none]

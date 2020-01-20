@@ -1,0 +1,2 @@
+main.adb:16:05: warning: variable "tabla" is never read and never assigned
+main.adb:17:05: warning: variable "ficha_introducida" is never read and never assigned

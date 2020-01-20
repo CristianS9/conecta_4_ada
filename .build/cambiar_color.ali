@@ -8,12 +8,12 @@ RN
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U cambiar_color%b	cambiar_color.adb	a7aafcc4 NE OO SU IL
+U cambiar_color%b	cambiar_color.adb	93013a21 NE OO SU IL
 W tipos%s		tipos.ads		tipos.ali
 
-D cambiar_color.adb	20191218104926 496a76fd cambiar_color%b
+D cambiar_color.adb	20191218105728 496a76fd cambiar_color%b
 D system.ads		20190518041258 32a08138 system%s
-D tipos.ads		20191218043222 eec08a39 tipos%s
+D tipos.ads		20200120185032 da6b4cdc tipos%s
 G a e
 G c Z b b [cambiar_color standard 3 11 none]
 X 1 cambiar_color.adb

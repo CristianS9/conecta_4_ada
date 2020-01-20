@@ -9,7 +9,7 @@ RV NO_IO
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U escribir_pedir_ficha%b  escribir_pedir_ficha.adb  c17c4b42 NE OO SU IL
+U escribir_pedir_ficha%b  escribir_pedir_ficha.adb  f5d78da7 NE OO SU IL
 W ada%s			ada.ads			ada.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
 W nt_console%s		nt_console.adb		nt_console.ali
@@ -39,7 +39,7 @@ D s-stoele.ads		20190518041258 2dc34a04 system.storage_elements%s
 D s-traent.ads		20190518041256 005bf670 system.traceback_entries%s
 D s-unstyp.ads		20190518041256 34867c83 system.unsigned_types%s
 D s-wchcon.ads		20190518041256 1b7d22d2 system.wch_con%s
-D tipos.ads		20191218043222 eec08a39 tipos%s
+D tipos.ads		20200120185032 da6b4cdc tipos%s
 G a e
 G c Z b b [escribir_pedir_ficha standard 5 11 none]
 G r c none [escribir_pedir_ficha standard 5 11 none] [set_foreground nt_console 207 14 none]

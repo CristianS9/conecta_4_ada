@@ -1,6 +1,6 @@
 package tipos is
 
-Max_Columnas: constant integer:=9;
+Max_Columnas: constant integer:=7;
 Max_Filas: constant Integer:=6;
 
 type color is (Rojo, Amarillo, Nada, Ambos);

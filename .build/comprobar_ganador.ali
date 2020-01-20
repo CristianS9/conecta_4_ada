@@ -10,7 +10,7 @@ RV NO_IO
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U comprobar_ganador%b	comprobar_ganador.adb	768846c9 NE OO SU IL
+U comprobar_ganador%b	comprobar_ganador.adb	4223802c NE OO SU IL
 W ada%s			ada.ads			ada.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
 W comprobar_diagonal_derecha%b  comprobar_diagonal_derecha.adb  comprobar_diagonal_derecha.ali
@@ -46,7 +46,7 @@ D s-stoele.ads		20190518041258 2dc34a04 system.storage_elements%s
 D s-traent.ads		20190518041256 005bf670 system.traceback_entries%s
 D s-unstyp.ads		20190518041256 34867c83 system.unsigned_types%s
 D s-wchcon.ads		20190518041256 1b7d22d2 system.wch_con%s
-D tipos.ads		20191218043222 eec08a39 tipos%s
+D tipos.ads		20200120185032 da6b4cdc tipos%s
 G a e
 G c Z b b [comprobar_ganador standard 8 10 none]
 G r c none [comprobar_ganador standard 8 10 none] [comprobar_linea_horizontal standard 3 10 none]

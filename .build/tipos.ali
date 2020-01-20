@@ -8,10 +8,10 @@ RN
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U tipos%s		tipos.ads		eec08a39 NE OO PK IL
+U tipos%s		tipos.ads		da6b4cdc NE OO PK IL
 
 D system.ads		20190518041258 32a08138 system%s
-D tipos.ads		20191218043222 eec08a39 tipos%s
+D tipos.ads		20200120185032 da6b4cdc tipos%s
 G a e
 G c Z s s [TtableroBIP tipos 8 1 none]
 X 2 tipos.ads

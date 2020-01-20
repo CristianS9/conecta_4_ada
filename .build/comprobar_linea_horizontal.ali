@@ -9,12 +9,12 @@ RV NO_DIRECT_BOOLEAN_OPERATORS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U comprobar_linea_horizontal%b  comprobar_linea_horizontal.adb  b4e5e499 NE OO SU IL
+U comprobar_linea_horizontal%b  comprobar_linea_horizontal.adb  804e227c NE OO SU IL
 W tipos%s		tipos.ads		tipos.ali
 
 D comprobar_linea_horizontal.adb  20191217154908 5a256ea0 comprobar_linea_horizontal%b
 D system.ads		20190518041258 32a08138 system%s
-D tipos.ads		20191218043222 eec08a39 tipos%s
+D tipos.ads		20200120185032 da6b4cdc tipos%s
 G a e
 G c Z b b [comprobar_linea_horizontal standard 3 10 none]
 X 1 comprobar_linea_horizontal.adb

@@ -8,12 +8,12 @@ RN
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U comprobar_empate%b	comprobar_empate.adb	48819af2 NE OO SU IL
+U comprobar_empate%b	comprobar_empate.adb	7c2a5c17 NE OO SU IL
 W tipos%s		tipos.ads		tipos.ali
 
 D comprobar_empate.adb	20191217154908 a64110cb comprobar_empate%b
 D system.ads		20190518041258 32a08138 system%s
-D tipos.ads		20191218043222 eec08a39 tipos%s
+D tipos.ads		20200120185032 da6b4cdc tipos%s
 G a e
 G c Z b b [comprobar_empate standard 3 10 none]
 X 1 comprobar_empate.adb

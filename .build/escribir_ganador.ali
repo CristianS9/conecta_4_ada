@@ -9,7 +9,7 @@ RV NO_IO
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U escribir_ganador%b	escribir_ganador.adb	96fb4bdd NE OO SU IL
+U escribir_ganador%b	escribir_ganador.adb	a2508d38 NE OO SU IL
 W ada%s			ada.ads			ada.ali
 W ada.text_io%s		a-textio.adb		a-textio.ali
 W nt_console%s		nt_console.adb		nt_console.ali
@@ -39,7 +39,7 @@ D s-stoele.ads		20190518041258 2dc34a04 system.storage_elements%s
 D s-traent.ads		20190518041256 005bf670 system.traceback_entries%s
 D s-unstyp.ads		20190518041256 34867c83 system.unsigned_types%s
 D s-wchcon.ads		20190518041256 1b7d22d2 system.wch_con%s
-D tipos.ads		20191218043222 eec08a39 tipos%s
+D tipos.ads		20200120185032 da6b4cdc tipos%s
 G a e
 G c Z b b [escribir_ganador standard 5 11 none]
 G r c none [escribir_ganador standard 5 11 none] [set_background nt_console 208 14 none]

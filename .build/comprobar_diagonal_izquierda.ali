@@ -9,12 +9,12 @@ RV NO_DIRECT_BOOLEAN_OPERATORS
 RV NO_IMPLEMENTATION_PRAGMAS
 RV SPARK_05
 
-U comprobar_diagonal_izquierda%b  comprobar_diagonal_izquierda.adb  c21b6031 NE OO SU IL
+U comprobar_diagonal_izquierda%b  comprobar_diagonal_izquierda.adb  f6b0a6d4 NE OO SU IL
 W tipos%s		tipos.ads		tipos.ali
 
 D comprobar_diagonal_izquierda.adb  20191217154908 2cdbea08 comprobar_diagonal_izquierda%b
 D system.ads		20190518041258 32a08138 system%s
-D tipos.ads		20191218043222 eec08a39 tipos%s
+D tipos.ads		20200120185032 da6b4cdc tipos%s
 G a e
 G c Z b b [comprobar_diagonal_izquierda standard 3 10 none]
 X 1 comprobar_diagonal_izquierda.adb

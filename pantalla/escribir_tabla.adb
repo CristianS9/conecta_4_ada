@@ -14,7 +14,10 @@ procedure escribir_tabla(tabla: in tablero) is
     procedure e_linea is begin
         e_borde;
         set_background(light_blue);
-        Put("                                                                           ");
+        for i in 1..Max_Columnas loop
+            put("        ");
+        end loop;
+        put("   ");
         set_background;
         e_borde;
     end e_linea;
@@ -62,7 +65,10 @@ procedure escribir_tabla(tabla: in tablero) is
         set_background(light_blue);
         put("       ");
         set_background;
-        Put("                                                                 ");
+        for i in 1..Max_Columnas-1 loop
+            put("        ");
+        end loop;
+        put(" ");
         set_background(light_blue);
         put("       ");
         set_background;
@@ -77,7 +83,7 @@ begin
         new_line;
 
         e_borde;
-        for j in tabla'range (2) loop
+        for j in 1..Max_Columnas loop
             e_celda(tabla(i,j));
         end loop;
         e_fin_celda;
@@ -85,7 +91,7 @@ begin
         new_line;    
 
         e_borde;
-        for j in tabla'range (2) loop
+        for j in 1..Max_Columnas loop
             e_celda(tabla(i,j));
         end loop;
         e_fin_celda;
